@@ -1,6 +1,7 @@
 package testCglib;
 
 /**
+ * 业务逻辑方法
  * Created by lxj on 2016/7/8.
  */
 public class BookServiceBean {

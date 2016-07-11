@@ -8,12 +8,14 @@ import org.apache.log4j.Logger;
  */
 public class Client {
     public static void main(String[] args){
-        BookServiceBean bookServiceBean = BookServiceFactory.getInstance();
-        doMethod(bookServiceBean);
-        BookServiceBean bookServiceBean1 = BookServiceFactory.getProxyInstance(new MyCglibProxy("lxj"));
+        /*BookServiceBean bookServiceBean = BookServiceFactory.getInstance();
+        doMethod(bookServiceBean);*/
+        BookServiceBean bookServiceBean1 = BookServiceFactory.getAuthInstanceByFilter(new MyCglibProxy("lxj"));
         bookServiceBean1.create();
-        BookServiceBean bookServiceBean2 = BookServiceFactory.getProxyInstance(new MyCglibProxy("zt"));
+        bookServiceBean1.query();
+        BookServiceBean bookServiceBean2 = BookServiceFactory.getAuthInstanceByFilter(new MyCglibProxy("zt"));
         bookServiceBean2.create();
+        bookServiceBean2.query();
     }
 
     public static void doMethod(BookServiceBean service) {

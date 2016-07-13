@@ -8,8 +8,18 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class CarDao {
 
+    private String driver;
+
+    CarDao(){
+        driver = "mysql";
+    }
+
+    CarDao(String driver) {
+        this.driver = driver;
+    }
+
     public void insertCar(String car) {
         String formatStr = String.format("inserting car %s",car);
-        System.out.println(formatStr);
+        System.out.println(formatStr + " into " + driver);
     }
 }

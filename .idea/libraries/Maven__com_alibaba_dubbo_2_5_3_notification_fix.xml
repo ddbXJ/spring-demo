@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.alibaba:dubbo:2.5.3-notification-fix">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3-notification-fix/dubbo-2.5.3-notification-fix.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3-notification-fix/dubbo-2.5.3-notification-fix-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3-notification-fix/dubbo-2.5.3-notification-fix-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

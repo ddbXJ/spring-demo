@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.taobao.diamond:diamond-client:3.7.0-sopen">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/diamond/diamond-client/3.7.0-sopen/diamond-client-3.7.0-sopen.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/diamond/diamond-client/3.7.0-sopen/diamond-client-3.7.0-sopen-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/diamond/diamond-client/3.7.0-sopen/diamond-client-3.7.0-sopen-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -21,5 +25,61 @@
     <orderEntry type="library" name="Maven: cglib:cglib:2.2.2" level="project" />
     <orderEntry type="library" name="Maven: asm:asm:3.3.1" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="module" module-name="dubbo" />
+    <orderEntry type="module" module-name="dubbo-config-api" />
+    <orderEntry type="module" module-name="dubbo-registry-api" />
+    <orderEntry type="module" module-name="dubbo-cluster" />
+    <orderEntry type="module" module-name="dubbo-monitor-api" />
+    <orderEntry type="module" module-name="dubbo-remoting-api" />
+    <orderEntry type="module" module-name="dubbo-filter-validation" />
+    <orderEntry type="module" module-name="dubbo-filter-cache" />
+    <orderEntry type="module" module-name="dubbo-config-spring" />
+    <orderEntry type="module" module-name="dubbo-remoting-netty" />
+    <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.5.Final" level="project" />
+    <orderEntry type="module" module-name="dubbo-remoting-mina" />
+    <orderEntry type="module" module-name="dubbo-remoting-grizzly" />
+    <orderEntry type="module" module-name="dubbo-remoting-p2p" />
+    <orderEntry type="module" module-name="dubbo-remoting-http" />
+    <orderEntry type="module" module-name="dubbo-common" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="module" module-name="hessian-lite" />
+    <orderEntry type="module" module-name="dubbo-rpc-default" />
+    <orderEntry type="module" module-name="dubbo-rpc-api" />
+    <orderEntry type="module" module-name="dubbo-container-api" />
+    <orderEntry type="module" module-name="dubbo-rpc-injvm" />
+    <orderEntry type="module" module-name="dubbo-rpc-rmi" />
+    <orderEntry type="module" module-name="dubbo-rpc-hessian" />
+    <orderEntry type="module" module-name="dubbo-rpc-http" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:3.2.16.RELEASE" level="project" />
+    <orderEntry type="module" module-name="dubbo-rpc-webservice" />
+    <orderEntry type="module" module-name="dubbo-rpc-thrift" />
+    <orderEntry type="module" module-name="dubbo-rpc-memcached" />
+    <orderEntry type="module" module-name="dubbo-rpc-redis" />
+    <orderEntry type="module" module-name="dubbo-registry-default" />
+    <orderEntry type="module" module-name="dubbo-registry-multicast" />
+    <orderEntry type="module" module-name="dubbo-registry-zookeeper" />
+    <orderEntry type="module" module-name="dubbo-remoting-zookeeper" />
+    <orderEntry type="module" module-name="dubbo-registry-redis" />
+    <orderEntry type="module" module-name="dubbo-monitor-default" />
+    <orderEntry type="module" module-name="dubbo-container-spring" />
+    <orderEntry type="module" module-name="dubbo-container-jetty" />
+    <orderEntry type="module" module-name="dubbo-container-log4j" />
+    <orderEntry type="module" module-name="dubbo-container-logback" />
+    <orderEntry type="library" name="Maven: org.apache.zookeeper:zookeeper:3.3.3" level="project" />
+    <orderEntry type="library" name="Maven: jline:jline:0.9.94" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.sgroschupf:zkclient:0.1" level="project" />
+    <orderEntry type="module" module-name="api" />
+    <orderEntry type="library" name="Maven: com.sfebiz:api-util:1.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm-all:4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.3.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:fluent-hc:4.3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk14:1.50" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcpkix-jdk14:1.50" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
   </component>
 </module>
